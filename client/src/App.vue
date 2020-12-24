@@ -4,7 +4,7 @@
     <br>
     <router-link to="/">none</router-link>
     <br>
-    <router-link to="/home">home</router-link>
+    <router-link to="/login">login</router-link>
     <router-view></router-view>
     
   </div>
@@ -27,6 +27,15 @@ export default {
 </script>
 
 <style>
+
+body{
+margin : 0;
+padding : 0;
+background : url(https://images.hdqwalls.com/download/evening-talks-4k-uq-1600x900.jpg);
+background-position: center;
+background-size: cover;
+font-family: sans-serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,4 +44,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

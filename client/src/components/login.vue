@@ -1,6 +1,6 @@
 <template>
     <div class="loginfrom">
-        <img src="https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331257_1280.png" class="avater">
+        <img src="https://cdn1.iconfinder.com/data/icons/esports-blush-vol-2/64/mmorpg-512.png" class="avater">
         <h1>Login</h1>
         <form>
             <p>E-mail</p>
@@ -58,7 +58,7 @@ export default {
 .avater{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    
     position: absolute;
     top: -50px;
     left: calc(50% - 50px);

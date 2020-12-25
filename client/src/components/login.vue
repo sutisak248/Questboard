@@ -8,7 +8,7 @@
             <p>Password</p>
             <input type="password" v-model="password" value="" placeholder="Enter Password"><br>
             <button v-on:click="login()">Login</button><br><br><br>
-            <p class="p-1">Not have account yet?<a href="#"> Sign up</a></p>
+            <p class="p-1">Not have account yet?<router-link to="/signup"><a href="#"> Sign up</a></router-link></p>
         </form>
     </div>
 </template>
@@ -39,7 +39,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     
 .loginfrom{
     width: 320px;

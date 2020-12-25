@@ -1,12 +1,16 @@
-import login from '../components/login.vue'
-import hello from '../components/HelloWorld.vue'
+// import login from '../components/login.vue'
+import signup from '../components/signup.vue'
+
 import VueRouter from 'vue-router'
 import Vue from 'vue'
 
 Vue.use(VueRouter)
 const routes = [
-  { path: '/', component: hello },
-  { path: '/login', component: login }
+  
+
+
+  // { path: '/profile', component: profile },
+  { path: '/signup', component: signup }
 ]
 const router = new VueRouter({routes})
 
